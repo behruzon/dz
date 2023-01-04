@@ -1,0 +1,730 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+
+
+
+/* <!-- хедр --> */
+
+
+.he {
+    background-color: black;
+    display: flex;
+    margin: 0 auto;
+    width: 1140px;
+    height: 90px;
+    font-size: 15px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.he .img {
+    margin-left: 120px;
+}
+
+.hed a {
+    text-decoration: none;
+    color: white;
+    margin-left: 32px;
+}
+
+button {
+    width: 155px;
+    height: 42px;
+    border-radius: 30px;
+    color: #000;
+    margin-left: 20px;
+    margin-right: 120px;
+}
+
+button:hover {
+    background-color: blue;
+    transition: all 1s;
+}
+
+/* <!-- конец хедра --> */
+
+
+
+
+
+
+/* <!-- начало 1 секции --> */
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.container {
+    background: url(../img/IMAGE.png) no-repeat center top/cover;
+    width: 1140px;
+    height: 616px;
+    text-align: center;
+}
+
+.container p {
+    padding-top: 400px;
+    margin-bottom: 1px;
+    color: #FFFFFF;
+    font-size: 15px;
+}
+
+.container h1 {
+    color: #FFFFFF;
+    font-size: 55px;
+    margin-bottom: 18px;
+}
+
+.container span {
+    color: #FFFFFF;
+    font-size: 15px;
+
+}
+
+.sec1 .im {
+    display: block;
+    text-align: right;
+    padding-right: 20px;
+    background-color: #000;
+    width: 1140px;
+    margin: 0 auto;
+}
+
+
+/* //////завершение первой секции */
+
+
+/* начало второй секции */
+
+.sec2 {
+    width: 1140px;
+    margin: 0 auto;
+
+}
+
+
+
+.container2 {
+    background-color: #000;
+    text-align: center;
+}
+
+.container2 .div h2 {
+    color: #FFFFFF;
+    font-size: 40px;
+    padding-top: 120px;
+}
+
+.container2 .div p {
+    color: #FFFFFF;
+    font-size: 25px;
+    padding-top: 20px;
+    padding-bottom: 45px;
+}
+
+
+.imgac {
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin-left: 70px;
+
+}
+
+.container2 .imgg {
+
+    background: url(../img/IMAGE1.png) no-repeat center top/cover;
+    width: 450px;
+    height: auto;
+    margin-bottom: 20px;
+
+}
+
+.container2 .img3 {
+
+    background: url(../img/IMAGE2.png) no-repeat center top/cover;
+    width: 450px;
+    height: auto;
+    margin-bottom: 20px;
+
+}
+
+.container2 .img4 {
+
+    background: url(../img/IMAGE3.png) no-repeat center top/cover;
+    width: 450px;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+.container2 .img5 {
+
+    background: url(../img/IMAGE4.png) no-repeat center top/cover;
+    width: 450px;
+    height: auto;
+    margin-bottom: 20px;
+
+}
+
+.container2 .imgg h5 {
+    text-align: left;
+    color: #C0C0C0;
+    font-size: 15px;
+    padding-top: 400px;
+    margin-left: 30px;
+}
+
+.container2 .img3 h5 {
+    text-align: left;
+    color: #C0C0C0;
+    font-size: 15px;
+    padding-top: 400px;
+    margin-left: 30px;
+}
+
+.container2 .img4 h5 {
+    text-align: left;
+    color: #C0C0C0;
+    font-size: 15px;
+    padding-top: 400px;
+    margin-left: 30px;
+}
+
+.container2 .img5 h5 {
+    text-align: left;
+    color: #C0C0C0;
+    font-size: 15px;
+    padding-top: 400px;
+    margin-left: 30px;
+}
+
+
+.container2 .imgg p {
+    text-align: left;
+    color: #C0C0C0;
+    font-size: 15px;
+    margin-left: 30px;
+    padding-top: 20px;
+}
+
+
+.container2 .img3 p {
+    text-align: left;
+    color: #C0C0C0;
+    font-size: 15px;
+    margin-left: 30px;
+    padding-top: 20px;
+}
+
+
+.container2 .img4 p {
+    text-align: left;
+    color: #C0C0C0;
+    font-size: 15px;
+    margin-left: 30px;
+    padding-top: 20px;
+}
+
+
+.container2 .img5 p {
+    text-align: left;
+    color: #C0C0C0;
+    font-size: 15px;
+    margin-left: 30px;
+    padding-top: 20px;
+}
+
+.divv {
+    border-radius: 30px;
+    width: 140px;
+    height: 42px;
+    margin-top: 42px;
+    background-color: #FFFFFF;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    display: flex;
+}
+
+.divv:hover {
+    background-color: blue;
+    transition: all 1s;
+}
+
+.divv .dif {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #000;
+    text-align: center;
+    margin-left: 5px;
+    margin-top: 5px;
+
+}
+
+
+.divv span {
+    color: #000000;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-left: 7px;
+}
+
+
+
+/* /////// конец 2 секции */
+
+
+/* //////  начало 3 секции */
+
+
+
+.conta {
+    width: 1140px;
+    height: 600px;
+    margin: 0 auto;
+    background: url(../img/IMAGEe.png) no-repeat center top / cover;
+}
+
+.conta h6 {
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding-top: 260px;
+    padding-left: 750px;
+}
+
+.conta p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+
+    padding-left: 750px;
+}
+
+.ii {
+    padding-top: 200px;
+    padding-left: 860px;
+}
+
+
+/* <!-- конец 3 секции --> */
+
+
+
+
+/* <!--  начало 4 секции --> */
+
+
+.container4 {
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.ima {
+    background: url(../img/IMAGEP.png) no-repeat center top / cover;
+    width: 750px;
+    height: 524px;
+
+
+}
+
+
+.text {
+    background-color: #000;
+
+
+}
+
+.text h5 {
+    font-size: 14px;
+    padding-top: 173px;
+    color: #FFFFFF;
+    padding-left: 50px;
+
+}
+
+.text h2 {
+    font-size: 28px;
+    padding-top: 3px;
+    color: #FFFFFF;
+    padding-left: 50px;
+    line-height: 32px;
+
+}
+
+.text p {
+    font-size: 14px;
+    padding-top: 3px;
+    color: #FFFFFF;
+    padding-left: 50px;
+    line-height: 14px;
+
+}
+
+
+
+.did {
+    width: 140px;
+    height: 42px;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-bottom: 153px;
+}
+
+.did .vid {
+    width: 32px;
+    height: 32px;
+    background-color: #000;
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.did span {
+    color: #000;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.did:hover {
+    background-color: blue;
+    transition: all 1s;
+}
+
+.in {
+    padding-top: 470px;
+    padding-left: 420px;
+}
+
+/* <!-- конец 4 секции --> */
+
+
+
+
+
+/* <!--  начало 5 секции --> */
+
+
+
+.containn {
+    background: url(../img/IMAGEM.png) no-repeat center top / cover;
+    width: 1140px;
+    height: 600px;
+    margin: 0 auto;
+
+}
+
+
+
+
+.containn h2 {
+    padding-top: 300px;
+    color: #FFFFFF;
+    padding-bottom: 5px;
+    padding-left: 760px;
+    font-size: 20px;
+}
+
+.containn p {
+    color: #FFFFFF;
+    padding-left: 760px;
+    font-size: 17px;
+}
+
+.containn .ip {
+    margin-top: 160px;
+    padding-left: 760px;
+}
+
+
+/* <!-- конец 5 секции --> */
+
+
+
+
+
+
+/* <!--  начало 6 секции --> */
+
+
+.containerr {
+    width: 1140px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: #000000;
+    text-align: center;
+
+}
+
+
+.containerr h1 {
+    color: #FFFFFF;
+    padding-top: 120px;
+    font-size: 40px;
+
+}
+
+.containerr p {
+    padding-top: 10px;
+    color: #FFFFFF;
+    font-size: 24px;
+}
+
+.containerr .ing {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    margin-top: 60px;
+    margin-left: 156px;
+    margin-bottom: 110px;
+width: 100%;
+}
+
+/* <!-- конец 6 секции --> */
+
+
+
+
+
+/* <!--  начало 7 секции --> */
+
+
+.coo {
+    width: 1140px;
+    margin: 0 auto;
+    height: 600px;
+    background: url(../img/IMAGEl.png) no-repeat center top / cover;
+}
+
+.coo h2 {
+    padding-top: 300px;
+    color: #FFFFFF;
+    padding-bottom: 5px;
+    padding-left: 760px;
+    font-size: 20px;
+}
+
+.coo p {
+    color: #FFFFFF;
+    padding-left: 760px;
+    font-size: 17px;
+}
+
+
+.coo .io {
+    margin-top: 160px;
+    padding-left: 760px;
+}
+
+/* <!-- конец 7 секции --> */
+
+
+
+
+/* <!--  начало 8 секции --> */
+
+
+.contaim {
+    width: 1140px;
+    margin: 0 auto;
+    background-color: #000;
+    text-align: center;
+    height: 414px;
+}
+
+
+.contaim h1 {
+    padding-top: 113px;
+    color: #C0C0C0;
+    font-size: 40px;
+}
+
+.contaim p {
+    padding-top: 15px;
+    font-size: 24px;
+    color: #C0C0C0;
+    padding-bottom: 12px;
+}
+
+.contaim button {
+    width: 152px;
+    height: 42px;
+    background-color: #C0C0C0;
+    display: flex;
+    margin-left: 490px;
+
+}
+
+.contaim button .dir {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #000;
+    margin-left: 5px;
+    margin-top: 3.5px;
+
+
+}
+
+.contaim button p {
+    color: #000;
+    font-size: 16px;
+    padding-top: 9px;
+    padding-left: 6px;
+
+}
+
+.contaim button:hover {
+    background-color: blue;
+    transition: all 1s;
+}
+
+/* <!-- конец 8 секции --> */
+
+
+
+/* <!--  начало футера --> */
+
+.com {
+    width: 1140px;
+    height: 260px;
+    margin: 0 auto;
+    background-color: #000;
+    display: flex;
+}
+
+.com .h1 img {
+    padding-top: 110px;
+    padding-left: 136px;
+}
+
+.com .h1 p {
+    font-size: 13px;
+    color: #C0C0C0;
+    padding-left: 136px;
+    padding-top: 20px;
+}
+
+.promo {
+    margin-top: 110px;
+    margin-left: 252px;
+}
+
+.promo h2 {
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+
+
+.promo p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+
+.promo2 {
+    margin-top: 110px;
+    margin-left: 25px;
+}
+
+.promo2 p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+
+.com2 {
+    width: 1140px;
+    height: 300px;
+    margin: 0 auto;
+    background-color: #000;
+  
+}
+
+
+.com2 .hr {
+    width: 900px;
+    height: 2px;
+    background-color: #FFFFFF;
+    margin-left: 136px;
+
+}
+
+
+.com2 h2 {
+    font-size: 14px;
+    color: #C0C0C0;
+    line-height: 20px;
+    padding-top: 36px;
+    padding-left: 136px;
+}
+
+.com2 p {
+    font-size: 14px;
+    color: #C0C0C0;
+    line-height: 20px;
+    padding-top: 15px;
+    padding-left: 136px;
+}
+
+.flexx button{
+    width: 458px;
+    height: 52px;
+    border-radius: 30px;
+    margin-left: 548px;
+    
+    
+}
+
+.flexx button .dr {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background-color: #000;
+   margin-left:400px ;
+}
+
+
+
+.com2 .hb {
+    width: 900px;
+    height: 2px;
+    background-color: #FFFFFF;
+    margin-left: 136px;
+    margin-top: 40px;
+
+}
+
+
+
+.com2 h4{
+    font-size: 14px;
+    color: #C0C0C0;
+    margin-top: 40px;
+    margin-left: 136px;
+}
+
+.com2 img {
+    margin-left: 400px ;
+    margin-top: 40px;
+}
+
+.fli {
+    display: flex;
+}
+
+
+ /* <!-- конец футера -_- --> */
+
